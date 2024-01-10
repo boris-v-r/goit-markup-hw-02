@@ -12,7 +12,6 @@ body {
 .logo {
     font-family: 'Raleway';
     color: var(--NAVY-BLUE, #4d5ae5);
-   
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -28,7 +27,6 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 1.17;
-    
     letter-spacing: 0.034em;
     text-transform: uppercase;
 }
@@ -38,14 +36,16 @@ body {
 .nav-list {}
 
 .nav-list-item {
-    color: var(--NAVY-BLUE, #2E2F42);
-    
+    color: #2E2F42;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    
     letter-spacing: 0.02em;
+}
+
+.nav-list-item:hover,:focus {
+ color: #404bbf
 }
 
 .nav-link {}
@@ -57,27 +57,27 @@ body {
 .address-list-item {}
 
 .address-link {
-color: var(--SLATE, #434455);
-
-    
-   
+color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
-    
+    line-height: 1.5; 
     letter-spacing: 0.02em;
 }
 
-.hero {}
+.address-link:hover,:focus {
+    color: #404bbf
+}
+
+.hero {
+    background-color: #2e2f42;
+}
 
 .hero-cont {}
 
 .hero-title {
     color: var(--WHITE, #FFF);
         text-align: center;
-    background-color: var(--NAVY-BLUE, #2E2F42);
-        
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
