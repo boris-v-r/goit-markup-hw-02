@@ -73,7 +73,7 @@ color: var(--SLATE, #434455);
 .hero-title {
     color: var(--WHITE, #FFF);
         text-align: center;
-    
+    background-color: var(--NAVY-BLUE, #2E2F42);
         
         font-size: 56px;
         font-style: normal;
@@ -86,7 +86,7 @@ color: var(--SLATE, #434455);
 .hero-btn-order {
     color: var(--WHITE, #FFF);
     
-        
+        background-color: var(--IRIS, #4D5AE5);
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
