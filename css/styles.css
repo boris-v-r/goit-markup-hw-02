@@ -5,22 +5,24 @@ ol {
 
 body {
     font-family: 'Roboto', sans-serif;
+    color:#434455
+    background-color:#ffffff
 }
 
 .logo {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+    color: var(--NAVY-BLUE, #4d5ae5);
+    font-family: "Raleway";
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.034em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-span {
-    color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    color: var(--IRIS, #2e2f42);
+    font-family: 'Raleway';
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
