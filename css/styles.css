@@ -3,15 +3,18 @@ ol {
     list-style-type: none;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .logo {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
-    /* 116.667% */
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.034em;
     text-transform: uppercase;
 }
 
@@ -21,9 +24,9 @@ ol {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
-    /* 116.667% */
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    
+    letter-spacing: 0.034em;
     text-transform: uppercase;
 }
 
@@ -33,14 +36,13 @@ ol {
 
 .nav-list-item {
     color: var(--NAVY-BLUE, #2E2F42);
-    /* Body Medium */
-    font-family: Roboto;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    
+    letter-spacing: 0.02em;
 }
 
 .nav-link {}
@@ -54,14 +56,14 @@ ol {
 .address-link {
 color: var(--SLATE, #434455);
 
-    /* Body */
-    font-family: Roboto;
+    
+   
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    
+    letter-spacing: 0.02em;
 }
 
 .hero {}
@@ -72,26 +74,24 @@ color: var(--SLATE, #434455);
     color: var(--WHITE, #FFF);
         text-align: center;
     
-        /* Header 1 */
-        font-family: Roboto;
+        
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
-        line-height: 60px;
-        /* 107.143% */
-        letter-spacing: 1.12px;
+        line-height: 1.07;
+      
+        letter-spacing: 0.07em;
 }
 
 .hero-btn-order {
     color: var(--WHITE, #FFF);
     
-        /* Button Text */
-        font-family: Roboto;
+        
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
-        /* 150% */
+       
         letter-spacing: 0.64px;
 }
 
@@ -106,41 +106,36 @@ color: var(--SLATE, #434455);
 .goals-list-item-title {
     color: var(--NAVY-BLUE, #2E2F42);
     
-        /* Header 3 */
-        font-family: Roboto;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
-        /* 120% */
-        letter-spacing: 0.4px;
+        line-height: 1.2;
+      
+        letter-spacing: 0.003em;
 }
 
 .goals-list-item-text {
     color: var(--SLATE, #434455);
     
-        /* Body */
-        font-family: Roboto;
+      
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
+        line-height: 1.5;
+        
+        letter-spacing: 0.02em;
 }
 
 .team-header {
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
     
-        /* Header 2 */
-        font-family: Roboto;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
-        letter-spacing: 0.72px;
+        line-height: 1.11;
+       
+        letter-spacing: 0.45em;
         text-transform: capitalize;
 }
 
@@ -148,65 +143,61 @@ color: var(--SLATE, #434455);
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
     
-        /* Header 3 */
-        font-family: Roboto;
+       
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
-        /* 120% */
-        letter-spacing: 0.4px;
+        line-height: 1.2;
+       
+        letter-spacing: 0.025em;
 }
 
 .team-mate-description {
     color: var(--SLATE, #434455);
         text-align: center;
     
-        /* Body */
-        font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
+        line-height: 1.5;
+       
+        letter-spacing: 0.02em;
 }
 
 .portfolio-header {
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
     
-        /* Header 2 */
-        font-family: Roboto;
+      
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
-        letter-spacing: 0.72px;
+        line-height: 1.11;
+        letter-spacing: 0.045em;
         text-transform: capitalize;
 }
 
 .portfolio-item {
-    display: flex;
-        width: 360px;
-        height: 420px;
-        padding-bottom: 32px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 32px;
-        flex-shrink: 0;
+color: var(--NAVY-BLUE, #2E2F42);
+
+   
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+   
+    letter-spacing: 0.025em;
 }
 
 .portfolio-item-description {
-    display: flex;
-        width: 360px;
-        height: 420px;
-        padding-bottom: 32px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 32px;
-        flex-shrink: 0;
+    color: var(--SLATE, #434455);
+    
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+       
+        letter-spacing: 0.02em;
 }
 
 .footer-logo {
@@ -215,9 +206,8 @@ color: var(--SLATE, #434455);
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
-        letter-spacing: 0.54px;
+        line-height: 1.17;
+        letter-spacing: 0.034em;
         text-transform: uppercase;
 }
 
@@ -227,21 +217,20 @@ color: var(--SLATE, #434455);
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 117;
         /* 116.667% */
-        letter-spacing: 0.54px;
+        letter-spacing: 0.034em;
         text-transform: uppercase;
 }
 
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
     
-        /* Body */
-        font-family: Roboto;
+       
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         /* 150% */
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
