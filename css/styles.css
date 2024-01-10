@@ -122,7 +122,7 @@ font-style: normal;
         font-style: normal;
         font-weight: 500;
         line-height: 1.2;
-        letter-spacing: 0.025em;
+        letter-spacing: 0.02em;
 }
 
 .team-mate-description {
@@ -152,7 +152,7 @@ color: var(--NAVY-BLUE, #2E2F42);
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-item-description {
@@ -168,7 +168,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 .footer-logo {
     color: var(--CLOUD, #4D5AE5);
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
@@ -178,7 +178,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .footer-logo-span {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: var(--IRIS, #f4f4fd);
         font-size: 18px;
         font-style: normal;
