@@ -11,7 +11,7 @@ body {
 
 .logo {
     color: var(--NAVY-BLUE, #4d5ae5);
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
